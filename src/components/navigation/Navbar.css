@@ -1,0 +1,50 @@
+/* Navbar.css */
+
+.sidenav {
+    width: 250px;
+    /* Độ rộng của thanh sidebar */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-right: 0.5px solid;
+}
+
+.sidenav__logo {
+    padding: 20px;
+    /* Khoảng cách từ logo đến đỉnh */
+    text-align: center;
+}
+
+.sidenav__button {
+    padding: 25px;
+    /* Khoảng cách giữa các mục trong sidebar */
+}
+
+.sidenav__button a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidenav__button .h761 .sidenav_item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Tuỳ chỉnh biểu tượng và văn bản */
+.sidebar__title {
+    padding-left: 16px;
+    /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+/* Tuỳ chỉnh hình ảnh hồ sơ */
+.profile_img {
+    border-radius: 50%;
+    /* Làm tròn hình ảnh */
+}
+
+.h-761{
+    height: 761px;
+}
+
